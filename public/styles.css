@@ -1,8 +1,37 @@
 body {
+    background-color: rgb(255, 255, 255);
 }
 
-h1 {
+p.results {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: groove;
+    border-radius: 15px; 
+    border-width: 10px;
+    border-color: black;
+    padding: 5px;
+    margin: 10px 0; 
 }
 
-p {
+img.shot {
+    width: 400px;
+}
+
+button {
+    background-color: #999999;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: #00ff7f; 
 }
