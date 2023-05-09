@@ -62,7 +62,7 @@ async function playGame () {
     }
 
     let baseurl = window.location.href.concat('app/')
-    let url = baseurl.concat(gameType.concat('/play/'))
+    let url = baseurl.concat(game.concat('/play/'))
 
     let oppo = document.getElementById('opponent').checked
     if (oppo) { url = url.concat(shot) }
