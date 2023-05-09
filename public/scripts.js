@@ -61,8 +61,8 @@ async function playGame () {
         if (x.checked == true) { move = x.id }
     }
 
-    let root = window.location.href.concat('app/')
-    let url = root.concat(gameType.concat('/play/'))
+    let baseurl = window.location.href.concat('app/')
+    let url = baseurl.concat(gameType.concat('/play/'))
 
     let oppo = document.getElementById('opponent').checked
     if (oppo) { url = url.concat(shot) }
